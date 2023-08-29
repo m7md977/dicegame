@@ -1,0 +1,43 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Higher Or lower</h1>
+      <button id="start" onclick="startGame()">Start</button>
+      <div id="current-player">Current Player: </div>
+
+      <div class="player-container">
+        
+        <div class="player-box1">
+          <div class="player1">Abdullah</div>
+          <div id="credits-player1"></div>
+          <div id="dice-roll-player1">
+            <img alt="" id="dice1-player1" src="assets/dice1.svg" />
+          </div>
+        </div>
+        <div class="player-box2">
+          <div class="player2">Tarek</div>
+          <div id="credits-player2"></div>
+          <div id="dice-roll-player2">
+            <img alt="" id="dice1-player2" src="assets/dice1.svg" />
+          </div>
+        </div>
+
+    </div>
+    <div>
+      <button id="higher">Higher</button>
+      <button id="lower">Lower</button>
+    </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
+
